@@ -53,7 +53,7 @@ data:
       - additive_gaussian_noise
       - additive_shade
       - motion_blur
-  cache_in_memory: true
+  cache_in_memory: false
   dataset: SyntheticDataset_gaussian
   gaussian_label:
     enable: false
