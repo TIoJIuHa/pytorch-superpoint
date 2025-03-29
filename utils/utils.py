@@ -160,7 +160,7 @@ def pltImshow(img):
 def loadConfig(filename):
     import yaml
     with open(filename, 'r') as f:
-        config = yaml.load(f)
+        config = yaml.safe_load(f)
     return config
 
 def append_csv(file='foo.csv', arr=[]):
