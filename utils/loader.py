@@ -70,7 +70,7 @@ def dataLoader(config, dataset='syn', warp_input=False, train=True, val=True):
     )
     train_loader = torch.utils.data.DataLoader(
         train_set, batch_size=config['model']['batch_size'], shuffle=True,
-        pin_memory=True,
+        pin_memory=False,
         num_workers=workers_train,
         worker_init_fn=worker_init_fn
     )
@@ -81,7 +81,7 @@ def dataLoader(config, dataset='syn', warp_input=False, train=True, val=True):
     )
     val_loader = torch.utils.data.DataLoader(
         val_set, batch_size=config['model']['eval_batch_size'], shuffle=True,
-        pin_memory=True,
+        pin_memory=False,
         num_workers=workers_val,
         worker_init_fn=worker_init_fn
     )
@@ -121,7 +121,7 @@ def dataLoader_test(config, dataset='syn', warp_input=False, export_task='train'
         )
         test_loader = torch.utils.data.DataLoader(
             test_set, batch_size=1, shuffle=False,
-            pin_memory=True,
+            pin_memory=False,
             num_workers=workers_test,
             worker_init_fn=worker_init_fn
         )
@@ -137,7 +137,7 @@ def dataLoader_test(config, dataset='syn', warp_input=False, export_task='train'
         )
         test_loader = torch.utils.data.DataLoader(
             test_set, batch_size=1, shuffle=False,
-            pin_memory=True,
+            pin_memory=False,
             num_workers=workers_test,
             worker_init_fn=worker_init_fn
 
