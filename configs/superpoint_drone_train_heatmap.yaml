@@ -1,103 +1,74 @@
 data:
-    # name: 'coco'
-    dataset: 'Drone_flight' # 'coco'
+    dataset: 'Drone_flight' # название .py скрипта для обработки датасета
 
-    labels: datasets/drone_flight/predictions
-    root: datasets/drone_flight/images
-    root_split_txt: # /datasets/COCO
-
-    gaussian_label:
+    labels: datasets/drone_flight/predictions # путь к папке с аннотациями
+    root: datasets/drone_flight/images # путь к папке с изображениями
+    
+    gaussian_label: # сглаживание меток
         enable: false
-        params:
-            GaussianBlur: {sigma: 0.2}
 
-
-    cache_in_memory: false
+    cache_in_memory: false # кэширование данных в памяти
     preprocessing:
-        # resize: [240, 320]
-        resize: [480, 640]
-    augmentation:
-        photometric:
+        resize: [480, 640] # привести изображения к размеру 640х480
+    augmentation: # аугментация данных
+        photometric: # фотометрическая аугментация
             enable: false
-            primitives: [
-                'random_brightness', 'random_contrast', 'additive_speckle_noise',
-                'additive_gaussian_noise', 'additive_shade', 'motion_blur']
-            params:
-                random_brightness: {max_abs_change: 50}
-                random_contrast: {strength_range: [0.5, 1.5]}
-                additive_gaussian_noise: {stddev_range: [0, 10]}
-                additive_speckle_noise: {prob_range: [0, 0.0035]}
-                additive_shade:
-                    transparency_range: [-0.5, 0.5]
-                    kernel_size_range: [100, 150]
-                motion_blur: {max_kernel_size: 3}
-        homographic:
-            enable: false  # not implemented
-    warped_pair:
+        homographic: # гомографическая аугментация
+            enable: false
+    warped_pair: # параметры искаженной пары изображения
         enable: true
         params:
-            translation: true
-            rotation: true
-            scaling: true
-            perspective: true
-            scaling_amplitude: 0.1
-            perspective_amplitude_x: 0.1
-            perspective_amplitude_y: 0.1
-            patch_ratio: 0.85
-            max_angle: 0.52
-            allow_artifacts: false # true
-        valid_border_margin: 3
+            translation: true # сдвиг
+            rotation: true # вращение
+            scaling: true # изменение масштаба
+            perspective: true # перспективное искажение
+            scaling_amplitude: 0.1 # амплитуда масштабирования
+            perspective_amplitude_x: 0.1 # амплитуда перспективного искажения по оси X
+            perspective_amplitude_y: 0.1 # амплитуда перспективного искажения по оси Y
+            patch_ratio: 0.85 # cоотношение размера патча к размеру изображения
+            max_angle: 0.52 # максимальный угол вращения
+            allow_artifacts: true # обработка артефактов
+        valid_border_margin: 3 # полоса допустимого поля по краям изображения
 
-front_end_model: 'Train_model_heatmap'  # 'Train_model_frontend'
-
+front_end_model: 'Train_model_heatmap' # название модели для фронтальной части сети
 training:
-    workers_train: 0 # 16
-    workers_val: 0 # 2
+    workers_train: 4 # количество рабочих потоков, используемых для тренировки
+    workers_val: 2 # количество рабочих потоков, используемых для валидации
 
 model:
-    # name: 'magic_point'
-    # name: 'SuperPointNet_heatmap'
-    name: 'SuperPointNet_gauss2'
+    name: 'SuperPointNet_gauss2' # название модели для обучения
     params: {
     }
-    detector_loss:
-        loss_type: 'softmax'
+    detector_loss: # параметры для функции потерь детектора
+        loss_type: 'softmax' # тип функции потерь
 
-
-    batch_size: 4 # 32
-    eval_batch_size: 4 # 32
-    learning_rate: 0.0001 # 0.0001
-    detection_threshold: 0.015 # 0.015
-    lambda_loss: 1 # 1
-    nms: 4
-    dense_loss:
+    batch_size: 8 # размер минибатча для тренировки
+    eval_batch_size: 8 # размер минибатча для валидации
+    learning_rate: 0.0001 # коэффицент обновления весов
+    detection_threshold: 0.015 # порог для определения ключевых точек
+    lambda_loss: 1 # параметр, регулирующий вес функции потерь
+    nms: 4 # параметр, определяющий размер окна для не максимального подавления
+    dense_loss: # параметры плотной функции потерь
         enable: false
         params:
-            descriptor_dist: 4 # 4, 7.5
-            lambda_d: 800 # 800
-    sparse_loss:
+            descriptor_dist: 4 # расстояние для дескрипторов
+            lambda_d: 800 # параметр, регулирующий вес плотной функции потерь
+    sparse_loss: # параметры для разреженной функции потерь
         enable: true
         params:
-            num_matching_attempts: 1000
-            num_masked_non_matches_per_match: 100
-            lamda_d: 1
-            dist: 'cos'
-            method: '2d'
-    other_settings: 'train 2d, gauss 0.2'
-    # subpixel:
-        # enable: false
-        # params:
-        #     subpixel_channel: 2
-        # settings: 'predict flow directly'
-        # loss_func: 'subpixel_loss_no_argmax' # subpixel_loss, subpixel_loss_no_argmax
+            num_matching_attempts: 1000 # количество попыток сопоставления
+            num_masked_non_matches_per_match: 100 # количество несоответствий для каждого совпадения
+            lamda_d: 1 # параметр, регулирующий вес плотной функции потерь    
+            dist: 'cos' # метрика расстояния, используемая для сопоставления
+            method: '2d' # метод
+    other_settings: 'train 2d, gauss 0.2' # другие настройки
 
-retrain: True # set true for new model
-reset_iter: True # set true to set the iteration number to 0
-train_iter: 200000 # 170000
-validation_interval: 2000 # 2000
-tensorboard_interval: 500 # 200
-save_interval: 2000 # 2000
-validation_size: 5
+retrain: True # повторное обучение модели
+reset_iter: True # сбрасывать ли итерации при дообучении
+train_iter: 200000 # количество итераций для тренировки
+validation_interval: 2000 # интервал в итерациях, через который будет проводиться валидация
+tensorboard_interval: 200 # интервал в итерациях, через который будет записываться информация для TensorBoard
+save_interval: 2000 # интервал в итерациях, через который будет сохраняться модель
+validation_size: 5 # размер валидационной выборки
 
-pretrained: logs/superpoint_coco_heat2_0/checkpoints/superPointNet_170000_checkpoint.pth.tar
-
+pretrained: logs/superpoint_coco_heat2_0/checkpoints/superPointNet_170000_checkpoint.pth.tar  # путь до предварительно обученной модели

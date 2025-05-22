@@ -413,7 +413,7 @@ def evaluate(args, **options):
             myfile.write("matching score: " + str(mscore_m) + '\n')
 
 
-
+        verbose = False
         if verbose:
             myfile.write("====== details =====" + '\n')
             for i in range(len(files)):

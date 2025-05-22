@@ -1,0 +1,1100 @@
+-----
+superPointNet_2000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5714359068927466
+localization error: 1.6570979987226517
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.14137931 0.30344828 0.43448276 0.60172414 0.74137931 0.85517241]
+nn mean AP: 0.46123022908087785
+matching score: 0.17356335625458547
+-----
+superPointNet_4000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5480672313127425
+localization error: 1.6193399693654642
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.12586207 0.32586207 0.45862069 0.64310345 0.78103448 0.88103448]
+nn mean AP: 0.5182369065015334
+matching score: 0.2043497919320985
+-----
+superPointNet_6000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5477730954283174
+localization error: 1.5248295091516681
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.15172414 0.36724138 0.52068966 0.68448276 0.79655172 0.89482759]
+nn mean AP: 0.5692121246602404
+matching score: 0.23254230969898476
+-----
+superPointNet_8000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5341259313953957
+localization error: 1.4547506097379266
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.17241379 0.42068966 0.56896552 0.72068966 0.82586207 0.9       ]
+nn mean AP: 0.6055042558630397
+matching score: 0.24976253470890206
+-----
+superPointNet_10000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.519597518111422
+localization error: 1.4062155110849393
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.17758621 0.42931034 0.55689655 0.7137931  0.82241379 0.89655172]
+nn mean AP: 0.6300396770743663
+matching score: 0.2640515158585126
+-----
+superPointNet_12000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.510639874881772
+localization error: 1.3634580841448447
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.2        0.50517241 0.62241379 0.73275862 0.82413793 0.89827586]
+nn mean AP: 0.6538928478183187
+matching score: 0.2803532487421172
+-----
+superPointNet_14000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.505076052218551
+localization error: 1.329915573868995
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.23103448 0.50517241 0.61724138 0.74137931 0.83448276 0.90344828]
+nn mean AP: 0.6746771211177893
+matching score: 0.2979601310008812
+-----
+superPointNet_16000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5066817067280761
+localization error: 1.2913245866079512
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.24137931 0.51896552 0.65517241 0.76206897 0.82758621 0.89655172]
+nn mean AP: 0.698028080044797
+matching score: 0.31769575707009573
+-----
+superPointNet_18000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5059698927084209
+localization error: 1.260180161315895
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.26896552 0.58448276 0.6862069  0.77758621 0.84310345 0.91206897]
+nn mean AP: 0.7194764838534319
+matching score: 0.3370432680056376
+-----
+superPointNet_20000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5123848391111797
+localization error: 1.2431234664088866
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.27586207 0.5862069  0.69827586 0.78103448 0.84482759 0.91034483]
+nn mean AP: 0.7231781964573886
+matching score: 0.3496584775220797
+-----
+superPointNet_22000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5186716906149261
+localization error: 1.2260292390385976
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.3        0.59655172 0.71724138 0.78793103 0.84655172 0.90689655]
+nn mean AP: 0.7372030357459898
+matching score: 0.3619690558532167
+-----
+superPointNet_24000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5294569208070018
+localization error: 1.2315130243485952
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.30172414 0.60344828 0.7        0.78448276 0.84137931 0.9       ]
+nn mean AP: 0.7367082170413182
+matching score: 0.36350981210689387
+-----
+superPointNet_26000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5314025559937375
+localization error: 1.2190952715236762
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.30172414 0.6        0.71551724 0.79310345 0.85517241 0.91034483]
+nn mean AP: 0.7448648750546935
+matching score: 0.3708236549583798
+-----
+superPointNet_28000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.539000235844062
+localization error: 1.2260290887167378
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.31551724 0.61206897 0.72586207 0.79137931 0.85172414 0.91206897]
+nn mean AP: 0.7417256762874174
+matching score: 0.3728148853623267
+-----
+superPointNet_30000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5359381877209519
+localization error: 1.1983518562393096
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.33448276 0.62241379 0.73448276 0.79482759 0.85344828 0.90862069]
+nn mean AP: 0.7540236113792362
+matching score: 0.3847689523738104
+-----
+superPointNet_32000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5442199431535439
+localization error: 1.2093205661653084
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.30517241 0.62758621 0.71551724 0.80344828 0.86034483 0.91034483]
+nn mean AP: 0.7449353745155618
+matching score: 0.38135395502569996
+-----
+superPointNet_34000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.535890145903059
+localization error: 1.1611806560084441
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34310345 0.65172414 0.72758621 0.80517241 0.85344828 0.9137931 ]
+nn mean AP: 0.7639930059992821
+matching score: 0.3961201885805891
+-----
+superPointNet_36000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5549559952021492
+localization error: 1.2033167859741778
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34655172 0.65862069 0.74655172 0.80344828 0.86206897 0.92241379]
+nn mean AP: 0.7419344750583062
+matching score: 0.3877984584967813
+-----
+superPointNet_38000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5429562011240535
+localization error: 1.1802751820690869
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35517241 0.64137931 0.73103448 0.81206897 0.8637931  0.91551724]
+nn mean AP: 0.756343139126421
+matching score: 0.39038401810708784
+-----
+superPointNet_40000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5383703051901418
+localization error: 1.1639010368798184
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34310345 0.67413793 0.75517241 0.81206897 0.86206897 0.91551724]
+nn mean AP: 0.7630941999098036
+matching score: 0.39756045829538983
+-----
+superPointNet_42000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5332835998751548
+localization error: 1.1493226761655388
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.36724138 0.66551724 0.75344828 0.8137931  0.8637931  0.91896552]
+nn mean AP: 0.7715587766926746
+matching score: 0.399194335575904
+-----
+superPointNet_44000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5196596622043665
+localization error: 1.140667337276688
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34482759 0.66206897 0.75172414 0.81551724 0.86034483 0.91724138]
+nn mean AP: 0.7759114343829252
+matching score: 0.39659579763338765
+-----
+superPointNet_46000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5231637025379149
+localization error: 1.1515151902510352
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.36206897 0.64827586 0.73965517 0.8137931  0.86896552 0.91206897]
+nn mean AP: 0.7672832497500646
+matching score: 0.39195605165504416
+-----
+superPointNet_48000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5247490643454169
+localization error: 1.1345209992723606
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.36724138 0.68103448 0.75       0.80689655 0.85862069 0.91034483]
+nn mean AP: 0.7719349624649302
+matching score: 0.39863437343758296
+-----
+superPointNet_50000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5089103835621567
+localization error: 1.1446276310675176
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34655172 0.67586207 0.74655172 0.81724138 0.86724138 0.9137931 ]
+nn mean AP: 0.7744378663986107
+matching score: 0.39080897102288303
+-----
+superPointNet_52000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.4986048422281971
+localization error: 1.1516466016614684
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.36206897 0.67068966 0.76206897 0.81896552 0.87241379 0.91896552]
+nn mean AP: 0.7695577859282133
+matching score: 0.38383898228817315
+-----
+superPointNet_54000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5235188788643247
+localization error: 1.153463494775847
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.36034483 0.67758621 0.75       0.82068966 0.87068966 0.92068966]
+nn mean AP: 0.7708531549729347
+matching score: 0.3958180141578343
+-----
+superPointNet_56000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5442339500836247
+localization error: 1.1518614703094445
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35689655 0.66896552 0.76724138 0.81724138 0.86206897 0.91896552]
+nn mean AP: 0.7699497206876006
+matching score: 0.40814502741585695
+-----
+superPointNet_58000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.4929887111173212
+localization error: 1.1374063622271453
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.3637931  0.65172414 0.75517241 0.82068966 0.8637931  0.9137931 ]
+nn mean AP: 0.7752783057537278
+matching score: 0.3814055066730037
+-----
+superPointNet_60000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.4850396870257055
+localization error: 1.150829559417924
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.33103448 0.64137931 0.74655172 0.81724138 0.87413793 0.9137931 ]
+nn mean AP: 0.7647889593923021
+matching score: 0.37576179448696617
+-----
+superPointNet_62000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.49366934649112626
+localization error: 1.1693546065802745
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.32068966 0.65862069 0.74655172 0.81206897 0.85517241 0.91034483]
+nn mean AP: 0.7593118794309173
+matching score: 0.3726261025205687
+-----
+superPointNet_64000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.477010426172213
+localization error: 1.1568589824869044
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34655172 0.64137931 0.74827586 0.80344828 0.85517241 0.91551724]
+nn mean AP: 0.7657386814953476
+matching score: 0.36765669767808346
+-----
+superPointNet_66000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.49580041204130576
+localization error: 1.1653243941325948
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34482759 0.66551724 0.73793103 0.80862069 0.86724138 0.92241379]
+nn mean AP: 0.7700733164492335
+matching score: 0.3766504576067619
+-----
+superPointNet_68000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5078293382130806
+localization error: 1.1589009161611779
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.3637931  0.68103448 0.75689655 0.80689655 0.86896552 0.91724138]
+nn mean AP: 0.7708858007094469
+matching score: 0.3842498451735902
+-----
+superPointNet_70000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.48918737672165213
+localization error: 1.16499157001021
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35862069 0.64137931 0.73793103 0.81034483 0.85689655 0.91034483]
+nn mean AP: 0.7582658699449092
+matching score: 0.3750317674402404
+-----
+superPointNet_72000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.47901357362496083
+localization error: 1.1584537833883948
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35172414 0.65862069 0.74827586 0.8        0.86724138 0.91724138]
+nn mean AP: 0.7660690867268136
+matching score: 0.3696041876891386
+-----
+superPointNet_74000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.4939367566208681
+localization error: 1.1779444686466476
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.33103448 0.65344828 0.73965517 0.80689655 0.86034483 0.91896552]
+nn mean AP: 0.756032604143978
+matching score: 0.37139346442536986
+-----
+superPointNet_76000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.49148683629296885
+localization error: 1.178607052892686
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35862069 0.65689655 0.73965517 0.8137931  0.85689655 0.91896552]
+nn mean AP: 0.7560173330135745
+matching score: 0.3701216560878115
+-----
+superPointNet_78000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5049027747139458
+localization error: 1.1647071046920414
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35       0.65517241 0.74482759 0.80689655 0.86551724 0.91551724]
+nn mean AP: 0.772125154879671
+matching score: 0.38394064448201304
+-----
+superPointNet_80000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.4940048812040979
+localization error: 1.1710952301494668
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.33275862 0.65172414 0.75       0.81206897 0.8637931  0.92068966]
+nn mean AP: 0.7562400148708349
+matching score: 0.3762562384700115
+-----
+superPointNet_82000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5058303677373253
+localization error: 1.1787270275341877
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34827586 0.65689655 0.73965517 0.82068966 0.86551724 0.91896552]
+nn mean AP: 0.7568115574530366
+matching score: 0.37557189676418984
+-----
+superPointNet_84000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5086967941293056
+localization error: 1.1730109211743331
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34137931 0.66724138 0.75       0.82413793 0.86724138 0.92758621]
+nn mean AP: 0.75740596149512
+matching score: 0.38280005381015036
+-----
+superPointNet_86000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.500247268853743
+localization error: 1.1780235120059188
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34482759 0.65689655 0.74137931 0.82068966 0.87068966 0.91724138]
+nn mean AP: 0.7545708219188489
+matching score: 0.37606080389137136
+-----
+superPointNet_88000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.481916952555305
+localization error: 1.1909623312042883
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.32931034 0.64655172 0.74827586 0.81034483 0.86034483 0.91034483]
+nn mean AP: 0.7529072842580085
+matching score: 0.36039439352449576
+-----
+superPointNet_90000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5026715799788717
+localization error: 1.173745607141816
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.3637931  0.66034483 0.74827586 0.81034483 0.86896552 0.91724138]
+nn mean AP: 0.767881475796135
+matching score: 0.3801278255141399
+-----
+superPointNet_92000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5074382265500226
+localization error: 1.1692866187038742
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35517241 0.67241379 0.75517241 0.80862069 0.86724138 0.92758621]
+nn mean AP: 0.7712333702799162
+matching score: 0.38617767663824526
+-----
+superPointNet_94000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5229011414332709
+localization error: 1.162573888299682
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.37931034 0.67586207 0.76034483 0.81896552 0.87068966 0.92586207]
+nn mean AP: 0.77554078583713
+matching score: 0.397990695679312
+-----
+superPointNet_96000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5223204884739504
+localization error: 1.1804933131459123
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35344828 0.67586207 0.75862069 0.82241379 0.87068966 0.92586207]
+nn mean AP: 0.7641745786598348
+matching score: 0.3936059967305237
+-----
+superPointNet_98000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5089522973398111
+localization error: 1.184295153071161
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.32586207 0.65       0.75       0.8        0.87241379 0.91206897]
+nn mean AP: 0.766980792291769
+matching score: 0.38196330600875156
+-----
+superPointNet_100000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5068609399718963
+localization error: 1.1898788102833788
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35517241 0.65517241 0.75       0.81551724 0.87068966 0.92068966]
+nn mean AP: 0.7620369899407433
+matching score: 0.3826695448546252
+-----
+superPointNet_102000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5198318957850478
+localization error: 1.186774832589568
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34655172 0.66206897 0.75689655 0.80862069 0.86551724 0.91724138]
+nn mean AP: 0.7601734267794028
+matching score: 0.38591291499891406
+-----
+superPointNet_104000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5103968704098003
+localization error: 1.203882281770128
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34482759 0.64655172 0.74827586 0.81034483 0.85689655 0.92413793]
+nn mean AP: 0.7470847498032945
+matching score: 0.3723043078047826
+-----
+superPointNet_106000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5101612076538924
+localization error: 1.1943096492814138
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.36551724 0.67068966 0.75       0.82413793 0.87758621 0.92068966]
+nn mean AP: 0.7552122760306177
+matching score: 0.3804824693477355
+-----
+superPointNet_108000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5020748091312055
+localization error: 1.2009624210434222
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35172414 0.6637931  0.74482759 0.80689655 0.86551724 0.9137931 ]
+nn mean AP: 0.7508415742909714
+matching score: 0.3746528141126498
+-----
+superPointNet_110000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5144628317024602
+localization error: 1.1944352868395656
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35862069 0.64310345 0.74310345 0.8137931  0.87758621 0.92413793]
+nn mean AP: 0.747482363539161
+matching score: 0.3793034444615048
+-----
+superPointNet_112000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5149903440015887
+localization error: 1.1914442597244264
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35517241 0.65517241 0.75344828 0.81034483 0.85517241 0.92068966]
+nn mean AP: 0.7568964407508076
+matching score: 0.37938557160809905
+-----
+superPointNet_114000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5278758519923008
+localization error: 1.1832031411648933
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.38448276 0.6862069  0.76206897 0.82068966 0.86896552 0.92068966]
+nn mean AP: 0.7632726912411887
+matching score: 0.3955398303131493
+-----
+superPointNet_116000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5076962494166078
+localization error: 1.1863173519166894
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.3637931  0.65517241 0.75172414 0.81551724 0.86034483 0.91896552]
+nn mean AP: 0.7575644765304161
+matching score: 0.37749466693371136
+-----
+superPointNet_118000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5217520768130534
+localization error: 1.1866391052859586
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35689655 0.66724138 0.74482759 0.8137931  0.87068966 0.92413793]
+nn mean AP: 0.7662259720584896
+matching score: 0.38934357227484584
+-----
+superPointNet_120000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5242585261258992
+localization error: 1.1884272159210236
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.37586207 0.67758621 0.76551724 0.81551724 0.86206897 0.91896552]
+nn mean AP: 0.7631448225185741
+matching score: 0.3910859720567982
+-----
+superPointNet_122000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5018623362908974
+localization error: 1.1951437582999849
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.33275862 0.64827586 0.75517241 0.81896552 0.87413793 0.91551724]
+nn mean AP: 0.7563473292626197
+matching score: 0.3750705796315913
+-----
+superPointNet_124000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5262654382428997
+localization error: 1.1866538072559298
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.37241379 0.67758621 0.76896552 0.81724138 0.86724138 0.92586207]
+nn mean AP: 0.7592806395762862
+matching score: 0.392488145204899
+-----
+superPointNet_126000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5235931380572926
+localization error: 1.1939813096258465
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34310345 0.65517241 0.75689655 0.82068966 0.86724138 0.91551724]
+nn mean AP: 0.7573399635054304
+matching score: 0.38363866404697
+-----
+superPointNet_128000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5231573376412041
+localization error: 1.200554475303271
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.32586207 0.65862069 0.75344828 0.81206897 0.86896552 0.92068966]
+nn mean AP: 0.7559499139268884
+matching score: 0.3828714276499344
+-----
+superPointNet_130000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5152644064187277
+localization error: 1.1867265600562737
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35344828 0.67413793 0.76206897 0.82068966 0.87413793 0.91896552]
+nn mean AP: 0.7573800917692881
+matching score: 0.38095151925341986
+-----
+superPointNet_132000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5352730179482382
+localization error: 1.196284778369583
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34310345 0.65344828 0.75       0.81551724 0.87241379 0.91896552]
+nn mean AP: 0.7524554716898033
+matching score: 0.388725809478034
+-----
+superPointNet_134000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5185883873428114
+localization error: 1.2013308136332148
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.33448276 0.64655172 0.75172414 0.81724138 0.86724138 0.92241379]
+nn mean AP: 0.7559672981647552
+matching score: 0.3784008604572069
+-----
+superPointNet_136000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5249826078809152
+localization error: 1.1931366597950923
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.36034483 0.63793103 0.7362069  0.81551724 0.87068966 0.91551724]
+nn mean AP: 0.7583825611213648
+matching score: 0.38705986753644894
+-----
+superPointNet_138000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5206134722524782
+localization error: 1.207493227018447
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34827586 0.65172414 0.75689655 0.8137931  0.8637931  0.9137931 ]
+nn mean AP: 0.7506541558376411
+matching score: 0.3802391793648394
+-----
+superPointNet_140000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5282431421765916
+localization error: 1.1934653469921566
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34482759 0.66206897 0.75       0.81206897 0.87586207 0.9137931 ]
+nn mean AP: 0.759361022585596
+matching score: 0.3887384404378375
+-----
+superPointNet_142000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.529985592002806
+localization error: 1.1991227028569047
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.36896552 0.67758621 0.75       0.81034483 0.86724138 0.92241379]
+nn mean AP: 0.7549818186961476
+matching score: 0.38821574855529584
+-----
+superPointNet_144000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5336091968872468
+localization error: 1.1985480984968835
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34137931 0.66724138 0.7637931  0.82068966 0.87068966 0.92241379]
+nn mean AP: 0.754616505173244
+matching score: 0.3886833841744268
+-----
+superPointNet_146000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5201317442617828
+localization error: 1.1985198639730528
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.3637931  0.66896552 0.74482759 0.81724138 0.87241379 0.91896552]
+nn mean AP: 0.7545610469928306
+matching score: 0.38248357733703475
+-----
+superPointNet_148000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5226211345596516
+localization error: 1.2036036051350314
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.32068966 0.65862069 0.74655172 0.80862069 0.86896552 0.91724138]
+nn mean AP: 0.7490724481973194
+matching score: 0.38017074933555906
+-----
+superPointNet_150000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5283006282206927
+localization error: 1.198820181104689
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34310345 0.67068966 0.76206897 0.81896552 0.86896552 0.92241379]
+nn mean AP: 0.7544308645816423
+matching score: 0.3895062726392387
+-----
+superPointNet_152000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5273139552948184
+localization error: 1.1997397020653977
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35172414 0.66034483 0.75517241 0.82758621 0.87241379 0.91551724]
+nn mean AP: 0.7583114360707006
+matching score: 0.38489558815048674
+-----
+superPointNet_154000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5335725877246954
+localization error: 1.1960546904888902
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.37068966 0.66724138 0.75172414 0.82413793 0.87413793 0.92241379]
+nn mean AP: 0.7608595369504199
+matching score: 0.3947486473888663
+-----
+superPointNet_156000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5229018811113026
+localization error: 1.2084485966015552
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34482759 0.65344828 0.75172414 0.82241379 0.87413793 0.92586207]
+nn mean AP: 0.7522561951398029
+matching score: 0.3825994671547431
+-----
+superPointNet_158000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5285277570074518
+localization error: 1.2059291091791764
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.33448276 0.67068966 0.76724138 0.81551724 0.87068966 0.92413793]
+nn mean AP: 0.7499569482022613
+matching score: 0.38492952162547384
+-----
+superPointNet_160000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5319517539200702
+localization error: 1.2026293356979523
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.32068966 0.65689655 0.74655172 0.81206897 0.87068966 0.91896552]
+nn mean AP: 0.7534933671049389
+matching score: 0.38686682161309627
+-----
+superPointNet_162000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5316378324250853
+localization error: 1.2086278305491596
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34655172 0.65689655 0.74482759 0.80862069 0.86551724 0.92413793]
+nn mean AP: 0.7532309947503149
+matching score: 0.3877874562439763
+-----
+superPointNet_164000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5268819759878732
+localization error: 1.2043605305672134
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34310345 0.66206897 0.74482759 0.80689655 0.86206897 0.91724138]
+nn mean AP: 0.7512235371245053
+matching score: 0.38435823746125597
+-----
+superPointNet_166000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5285705127586235
+localization error: 1.2049282132330823
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34482759 0.64482759 0.75344828 0.81034483 0.86896552 0.92068966]
+nn mean AP: 0.7539991095111249
+matching score: 0.3854181627049573
+-----
+superPointNet_168000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5286760324055997
+localization error: 1.2008270196671262
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.32413793 0.65       0.74655172 0.82758621 0.87413793 0.92068966]
+nn mean AP: 0.7524253193358925
+matching score: 0.38659035910181083
+-----
+superPointNet_170000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5372553776828934
+localization error: 1.2056120307530909
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34137931 0.6637931  0.76724138 0.81034483 0.85689655 0.91896552]
+nn mean AP: 0.755383539638874
+matching score: 0.3897719238954778
+-----
+superPointNet_172000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5264864785606852
+localization error: 1.2088013434252058
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.37413793 0.65       0.73103448 0.80689655 0.85862069 0.91551724]
+nn mean AP: 0.7545363936906992
+matching score: 0.38323709595663
+-----
+superPointNet_174000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5317816970964979
+localization error: 1.2072938110342197
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.33103448 0.6637931  0.76206897 0.8137931  0.87068966 0.92758621]
+nn mean AP: 0.7514494080565779
+matching score: 0.3836487592772663
+-----
+superPointNet_176000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5294274731039035
+localization error: 1.2022387090178035
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.3362069  0.65689655 0.75172414 0.81551724 0.86206897 0.9137931 ]
+nn mean AP: 0.7581209092793242
+matching score: 0.3868708772078267
+-----
+superPointNet_178000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5281080134624392
+localization error: 1.213612385190461
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35862069 0.63965517 0.73448276 0.8        0.85517241 0.91724138]
+nn mean AP: 0.749520422709189
+matching score: 0.3818693256867275
+-----
+superPointNet_180000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5399925008247036
+localization error: 1.19922717746081
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35862069 0.64827586 0.74655172 0.80344828 0.86034483 0.91551724]
+nn mean AP: 0.7553248025120194
+matching score: 0.39356490830575674
+-----
+superPointNet_182000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.528643870550395
+localization error: 1.2105215052162
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35       0.66551724 0.7362069  0.81551724 0.87586207 0.91896552]
+nn mean AP: 0.7518072441474715
+matching score: 0.38385541688653124
+-----
+superPointNet_184000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.530484768456518
+localization error: 1.2094249906600054
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34137931 0.64482759 0.7362069  0.80344828 0.86724138 0.91896552]
+nn mean AP: 0.7496736632866978
+matching score: 0.38344698119541226
+-----
+superPointNet_186000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5323483793263744
+localization error: 1.2028786872449908
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.34310345 0.64827586 0.75       0.81034483 0.86896552 0.91551724]
+nn mean AP: 0.7507982204327914
+matching score: 0.38660042013690843
+-----
+superPointNet_188000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5321793185033691
+localization error: 1.207809096272089
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.3362069  0.64655172 0.7362069  0.8137931  0.86896552 0.92586207]
+nn mean AP: 0.7520790998060137
+matching score: 0.38566088651491376
+-----
+superPointNet_190000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5382890674003508
+localization error: 1.1982740205810791
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.36034483 0.65172414 0.74310345 0.82241379 0.86896552 0.91724138]
+nn mean AP: 0.7594038363093218
+matching score: 0.3928704651450413
+-----
+superPointNet_192000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5296567636920451
+localization error: 1.2099565467828068
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35172414 0.65       0.74482759 0.81206897 0.86724138 0.91724138]
+nn mean AP: 0.7539202753052252
+matching score: 0.3822961489592377
+-----
+superPointNet_194000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5319739477540922
+localization error: 1.2077432319346022
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.37586207 0.66724138 0.75689655 0.81896552 0.86896552 0.91724138]
+nn mean AP: 0.7487009761855259
+matching score: 0.38629496364394067
+-----
+superPointNet_196000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5280490614303897
+localization error: 1.209197294474466
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.36551724 0.66034483 0.75689655 0.80689655 0.86551724 0.92068966]
+nn mean AP: 0.7479401502035012
+matching score: 0.3819457812730236
+-----
+superPointNet_198000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5449264976710199
+localization error: 1.2066920754217019
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.35172414 0.65517241 0.74310345 0.81551724 0.86206897 0.92068966]
+nn mean AP: 0.7554344096217468
+matching score: 0.3931012305443384
+-----
+superPointNet_200000_checkpoint.pth.tar
+-----
+repeatability threshold: 3
+repeatability: 0.5363034218714232
+localization error: 1.209644148370435
+Homography estimation: 
+Homography threshold: [1, 3, 5, 10, 20, 50]
+Average correctness: [0.31896552 0.6362069  0.73275862 0.81034483 0.86896552 0.92241379]
+nn mean AP: 0.7548707957966518
+matching score: 0.3869411494934828

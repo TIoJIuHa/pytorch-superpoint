@@ -1,0 +1,71 @@
+data:
+  augmentation:
+    homographic:
+      enable: false
+    photometric:
+      enable: false
+  cache_in_memory: false
+  dataset: Drone_flight
+  gaussian_label:
+    enable: false
+    params:
+      GaussianBlur:
+        sigma: 0.2
+  labels: datasets/drone_flight/predictions
+  preprocessing:
+    resize:
+    - 480
+    - 640
+  root: datasets/drone_flight/images
+  root_split_txt: null
+  warped_pair:
+    enable: true
+    params:
+      allow_artifacts: false
+      max_angle: 0.52
+      patch_ratio: 0.85
+      perspective: true
+      perspective_amplitude_x: 0.1
+      perspective_amplitude_y: 0.1
+      rotation: true
+      scaling: true
+      scaling_amplitude: 0.1
+      translation: true
+    valid_border_margin: 3
+front_end_model: Train_model_heatmap
+model:
+  batch_size: 4
+  dense_loss:
+    enable: false
+    params:
+      descriptor_dist: 4
+      lambda_d: 800
+  detection_threshold: 0.015
+  detector_loss:
+    loss_type: softmax
+  eval_batch_size: 4
+  lambda_loss: 1
+  learning_rate: 0.0001
+  name: SuperPointNet_gauss2
+  nms: 4
+  other_settings: train 2d, gauss 0.2
+  params: {}
+  sparse_loss:
+    enable: true
+    params:
+      dist: cos
+      lamda_d: 1
+      method: 2d
+      num_masked_non_matches_per_match: 100
+      num_matching_attempts: 1000
+pretrained: logs/superpoint_coco_heat2_0/checkpoints/superPointNet_170000_checkpoint.pth.tar
+reset_iter: true
+retrain: true
+save_interval: 2000
+tensorboard_interval: 500
+train_iter: 200000
+training:
+  workers_train: 0
+  workers_val: 0
+validation_interval: 2000
+validation_size: 5
